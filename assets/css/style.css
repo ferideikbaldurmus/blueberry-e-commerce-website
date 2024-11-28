@@ -1,13 +1,239 @@
-body{
-    
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.navbar{
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar--primary {
     background-color: #3D4750;
     width: 100%;
-    height: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    color: #fff;
 }
-nav .navbar--primary{
-    background-color: #3D4750;
+
+.navbar__list {
+    display: flex;
+    list-style-type: none;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+.navbar--primary h3 {
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.navbar__item {
+    margin-left: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.header {
     width: 100%;
     height: 100px;
+    background-color: #FFFFFF;
+    padding: 0px 90px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.header__logo {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.header__search {
+    margin-left: 150px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.search-box {
+    border-radius: 10px;
+    padding: 20px 200px;
+    border: none;
+    outline: none;
+    border: 1px solid #EEEEEE;
+    position: relative;
+}
+
+.search__left {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+    border-right: 1px solid #EEEEEE;
+    height: 55px;
+    font-size: 16px;
+    color: #777777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.search__left h5 {
+    margin-right: 5px;
+    font-weight: 100;
+    padding: 0px 30px;
+}
+
+.header__right {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.header-right-item {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #6D7FD8;
+}
+
+.header-right-item svg {
+    width: 40px;
+    height: 40px;
+    gap: 30px;
+    margin-right: 10px;
+}
+
+.header-right-item-text {
+    margin-right: 10px;
+}
+
+.header-right-item-text h5 {
+    color: #3D4750;
+    font-weight: 100;
+}
+
+.header-right-item-text h4 {
+    color: #3D4750;
+    font-weight: 600;
+}
+
+.sub-navbar {
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+}
+
+.sub-navbar-left {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.sub-navbar-bottom {
+    display: flex;
+    color: #3D4750;
+}
+
+.sub-navbar-menu-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 5px;
+    fill: #6D7FD8;
+    cursor: pointer;
+}
+
+.nav-circle {
+    font-size: 5px;
+
+}
+
+.sub-navbar-offers-svg {
+    display: flex;
+
+}
+
+.sub-navbar-offers-svg svg {
+    width: 20px;
+    height: 20px;
+    fill: #6D7FD8;
+    margin-right: 5px;
+}
+
+.sub-navbar-bottom .navbar__item {
+    transition: all 0.3s ease;
+}
+
+.sub-navbar-bottom .navbar__item:hover {
+    color: #6D7FD8;
+}
+
+.sub-navbar__location-button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    padding-left: 10px;
+}
+
+.sub-navbar__location-button  {
+    fill: #6D7FD8;
+
+}
+.location-svg {
+    margin-right: 10px; 
+    cursor: default; 
+}
+
+.location-svg svg {
+    fill: #6D7FD8; 
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-navbar__location-button span{
+    color: #777777;
+ margin-left: 5px;
+ font-size: 15px;
+
+}
+.sub-navbar__location-button span i{
+margin-left: 90px;
+}
+.hero__section {
+    background-color: #F8F8FB;
+    width: 100%;
+    height: 700px;
 }
