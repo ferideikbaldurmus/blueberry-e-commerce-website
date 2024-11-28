@@ -241,21 +241,21 @@ body {
     width: 100%;
     height: 700px;
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
 .hero__section--left {
     color: #777777;
     font-family: "Poppins", sans-serif;
-margin-left: -600px;
+    margin-left: -600px;
     padding: 200px;
     width: fit-content;
 }
 
-.hero__section--left p{
+.hero__section--left p {
     width: fit-content;
- 
+
 }
 
 .hero__section--left--title {
@@ -273,7 +273,8 @@ margin-left: -600px;
     font-size: 50px;
     font-family: 'Quicksand', sans-serif;
 }
-.hero__section--shop--button{
+
+.hero__section--shop--button {
     border-radius: 10px;
     border: 1px solid #3D4750;
     width: 120px;
@@ -286,17 +287,18 @@ margin-left: -600px;
     transition: all 0.5s ease;
     cursor: pointer;
     font-size: 15px;
-   
+
 }
-.hero__section--shop--button:hover{
+
+.hero__section--shop--button:hover {
     background-color: #6D7FD8;
     color: #fff;
     border-color: #6D7FD8;
 }
+
 .hero__section--right {
     display: flex;
     width: 10%;
 }
-.hero__section--right img{
 
-}
+.hero__section--right img {}
