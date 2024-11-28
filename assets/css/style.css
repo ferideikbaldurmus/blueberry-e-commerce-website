@@ -201,39 +201,102 @@ body {
     margin-top: 10px;
     margin-right: 50px;
     cursor: pointer;
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     padding-left: 10px;
 }
 
-.sub-navbar__location-button  {
+.sub-navbar__location-button {
     fill: #6D7FD8;
 
 }
+
 .location-svg {
-    margin-right: 10px; 
-    cursor: default; 
+    margin-right: 10px;
+    cursor: default;
 }
 
 .location-svg svg {
-    fill: #6D7FD8; 
+    fill: #6D7FD8;
     width: 25px;
     height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sub-navbar__location-button span{
+
+.sub-navbar__location-button span {
     color: #777777;
- margin-left: 5px;
- font-size: 15px;
+    margin-left: 5px;
+    font-size: 15px;
 
 }
-.sub-navbar__location-button span i{
-margin-left: 90px;
+
+.sub-navbar__location-button span i {
+    margin-left: 90px;
 }
+
 .hero__section {
     background-color: #F8F8FB;
     width: 100%;
     height: 700px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.hero__section--left {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+margin-left: -600px;
+    padding: 200px;
+    width: fit-content;
+}
+
+.hero__section--left p{
+    width: fit-content;
+ 
+}
+
+.hero__section--left--title {
+    color: #3D4750;
+    width: fit-content;
+    font-size: 50px;
+    width: 400px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.hero__section--left--title span {
+    color: #6D7FD8;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+.hero__section--shop--button{
+    border-radius: 10px;
+    border: 1px solid #3D4750;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #3D4750;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+.hero__section--shop--button:hover{
+    background-color: #6D7FD8;
+    color: #fff;
+    border-color: #6D7FD8;
+}
+.hero__section--right {
+    display: flex;
+    width: 10%;
+}
+.hero__section--right img{
+
 }
