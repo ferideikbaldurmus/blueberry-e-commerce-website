@@ -302,3 +302,19 @@ body {
 }
 
 /* .hero__section--right img {} */
+.hero__section--fixed-icon{
+    position: relative;
+}
+
+.hero__section--fixed--settings--icon{
+    width: 40px;
+    height: 40px;
+    background-color: #3D4750;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 10px;
+    color: #fff;
+}
