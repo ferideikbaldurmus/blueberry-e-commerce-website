@@ -565,3 +565,28 @@ margin-top: 10px;
 .featured__section{
 
 }
+.featured__section--title{
+    font-size: 18px;
+  
+    font-family: 'Quicksand', sans-serif;
+}
+.red__section--title p{
+    width: 100px;
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #686E7D;
+}
+.featured__section--title span{
+    color: #6D7FD8;
+}
+.featured__section--top{
+    display: flex;
+}
+.featured__section--timer{
+    border: 1px solid #EEEEEE;
+    background-color: #F8F8FB;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+
+}
