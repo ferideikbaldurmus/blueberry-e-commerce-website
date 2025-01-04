@@ -573,7 +573,6 @@ margin-top: 10px;
 align-items: first baseline;
 justify-content: space-evenly; */
     height: 500px;
-
 }
 
 .featured__section--title {
@@ -640,22 +639,32 @@ justify-content: space-evenly; */
 }
 
 .featured__section--cards--image {
-    /* object-fit: cover;
     display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .featured__section--cards--image img {
-    width: 100%;
+    width: 90%;
+    /* height: 100%; */
     border-radius: 20px;
+    cursor: pointer;
+}
 
+.featured__section--cards--badge {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 2px;
+    font-weight: 500;
+    position: absolute;
 }
 
 .featured__section--cards--underline {
     width: 299px;
     border: 1px solid #EEEEEE;
     transform: scaleY(0.5);
+    position: absolute;
+    margin-top: 260px;
 }
 
 .featured__section--cards--product--info--container {
@@ -672,6 +681,7 @@ justify-content: space-evenly; */
 .featured__section--cards--product--info--first-part {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .featured__section--cards--product--info--star--icons {
@@ -683,11 +693,96 @@ justify-content: space-evenly; */
 }
 
 .featured__section--cards--product--info--title {
-   margin: 6px 0px;
-   
+    margin: 6px 0px;
+
 }
-.featured__section--cards--product--info--title h3{
+
+.featured__section--cards--product--info--title h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     color: #3D4750;
+}
+
+.featured__section--cards--product--info--last--part--container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.featured__section--cards--product--info--last--left--part {
+    display: flex;
+    gap: 10px;
+
+}
+
+.featured__section--cards--product--info--last--left--part h4 {
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.featured__section--cards--product--info--last--left--part p {
+    color: #6D7FD8;
+}
+
+.featured__section--cards--product--info--last--right--part {
+    display: flex;
+    margin-left: 140px;
+}
+
+/* START delicious__food__horizontal__card__section */
+.delicious__food__horizontal__card__section {
+    display: flex;
+    align-items: center;
+    margin: 50px 120px;
+    gap: 50px;
+
+}
+
+.delicious__food__horizontal__card__section--left--cards {
+    width: 550px;
+    height: 300px;
+    background-color: #F8F8FB;
+    border-radius: 20px;
+    display: flex;
+}
+
+.delicious__food__horizontal__card__section--right--cards {
+    width: 550px;
+    height: 300px;
+    background-color: #F8F8FB;
+    border-radius: 20px;
+    display: flex;
+}
+.delicious__food__horizontal__card__section--cards--image {
+    /* margin: 30px 50px; */
+    margin-left: 10px;
+    display: flex;
+    width: 50%;
+}
+.delicious__food__horizontal__card__section--cards--image img{
+    width: 260px;
+    height: 260px;
+   display: flex;
+margin-top: 25px;
+
+   
+}
+.delicious__food__horizontal__card__section--left--cards--contents{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+.delicious__food__horizontal__card__section--left--cards--contents h1{
+ display: flex;
+ font-family: 'Quicksand', sans-serif;
+ color: #3D4750;
+}
+.delicious__food__horizontal__card__section--right--cards--contents{
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+}
+.delicious__food__horizontal__card__section--right--cards--contents h1{
+ display: flex;
+ font-family: 'Quicksand', sans-serif;
+ color: #6D7FD8;
 }
