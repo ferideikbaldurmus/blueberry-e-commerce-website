@@ -744,12 +744,10 @@ justify-content: space-evenly; */
     background-color: #F8F8FB;
     border-radius: 20px;
     display: flex;
-    background: linear-gradient(
-        -30deg, 
-        #F4DAB4 25%, 
-        #FBF2E5 60%, 
-        #F4DAB4 45% 
-    );
+    background: linear-gradient(-30deg,
+            #F4DAB4 25%,
+            #FBF2E5 60%,
+            #F4DAB4 45%);
 }
 
 .delicious__food__horizontal__card__section--right--cards {
@@ -758,12 +756,10 @@ justify-content: space-evenly; */
     background-color: #F8F8FB;
     border-radius: 20px;
     display: flex;
-    background: linear-gradient(
-        -40deg, 
-        #FFC6CE 25%, 
-        #FFE8EE 60%, 
-        #FFC6CE 45% 
-    );
+    background: linear-gradient(-40deg,
+            #FFC6CE 25%,
+            #FFE8EE 60%,
+            #FFC6CE 45%);
 }
 
 .delicious__food__horizontal__card__section--cards--image {
@@ -782,15 +778,15 @@ justify-content: space-evenly; */
 }
 
 .delicious__food__horizontal__card__section--cards--contents--container {
-margin-top: 50px;
-margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .delicious__food__horizontal__card__section--cards--contents--top {
     color: #3D4750;
     font-family: 'Quicksand', sans-serif;
-font-size: 21px;
-margin-left: 10px;
+    font-size: 21px;
+    margin-left: 10px;
 }
 
 .delicious__food__horizontal__card__section--cards--contents--top h4 {
@@ -815,30 +811,78 @@ margin-left: 10px;
     border-radius: 10px;
     font-weight: 500;
     transition: all 0.3s;
+    cursor: pointer;
 }
-.delicious__food__horizontal__card__section--cards--contents--button:hover{
+
+.delicious__food__horizontal__card__section--cards--contents--button:hover {
     background-color: rgb(108 127 216);
     color: #fff;
     border-color: rgb(108 127 216);
     cursor: pointer;
     transition: all 0.5s;
 }
-/* START fresh__organic__banner */
-.fresh__organic__banner{
-    width: 100%;
 
-    /* display: inline-block; */
+/* START fresh__organic__banner */
+
+.fresh__organic__banner{
+
 }
 .fresh__organic__banner--container{
-height: 40%;
-}
-.fresh__organic__banner--container--image{
-
- /* height: max-content;
- display: inline-block; */
 
 }
-.fresh__organic__banner--container--image img{
+.fresh__organic__banner--container--image {
+    width: 100%;
+    /* height: max-content; */
+    overflow: hidden;
+}
+
+.fresh__organic__banner--container--image img {
+    width: 100%;
+    /* height: max-content; */
+    object-fit: contain;
     clip-path: path("M1438.5 1H1.5L1 600.5H943L949.5 598L957 593L962.5 587L966 581L967.5 574.5L968.5 405.5L971.5 398.5L976.5 392L983.5 386.5L992.5 383.5H1342.5L1352 386.5L1360.5 393L1366 402L1368.5 410V575L1370.5 582L1373 586.5L1379 594L1388 599.5L1394 601H1404.5H1438.5V1Z");
 
+}
+
+.fresh__organic__banner--contents {
+    margin-top: -410px;
+    margin-left: 1000px;
+}
+
+.fresh__organic__banner--contents h3 {
+    color: #6D7FD8;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.fresh__organic__banner--contents h1 {
+    font-family: 'Quicksand', sans-serif;
+    width: 400px;
+    color: #3D4750;
+    font-size: 40px;
+}
+
+.fresh__organic__banner--contents--button {
+    color: #3D4750;
+    border: 1px solid #3D4750;
+    width: 100px;
+    height: 40px;
+    margin-top: 16px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+}
+
+.fresh__organic__banner--contents--button:hover {
+    background-color: rgb(108 127 216);
+    color: #fff;
+    border-color: rgb(108 127 216);
+    cursor: pointer;
+    transition: all 0.3s;
 }
