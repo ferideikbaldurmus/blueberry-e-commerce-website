@@ -834,14 +834,16 @@ justify-content: space-evenly; */
     width: 100%;
     /* height: max-content; */
     overflow: hidden;
+    /* display: inline-block; */
 }
+
 
 .fresh__organic__banner--container--image img {
     width: 100%;
     /* height: max-content; */
     object-fit: contain;
     clip-path: path("M1438.5 1H1.5L1 600.5H943L949.5 598L957 593L962.5 587L966 581L967.5 574.5L968.5 405.5L971.5 398.5L976.5 392L983.5 386.5L992.5 383.5H1342.5L1352 386.5L1360.5 393L1366 402L1368.5 410V575L1370.5 582L1373 586.5L1379 594L1388 599.5L1394 601H1404.5H1438.5V1Z");
-
+    /* display: inline-block; */
 }
 
 .fresh__organic__banner--contents {
