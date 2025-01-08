@@ -940,8 +940,9 @@ font-family: "Poppins", sans-serif;
 
 
 .new__arrivals__product__section--cards--container {
-    margin: 30px 50px;
-    display: flex;
+    margin: 20px 0px;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px;
 }
 
@@ -1042,4 +1043,53 @@ font-family: "Poppins", sans-serif;
 .new__arrivals__product__section--cards--product--info--last--right--part {
     display: flex;
     margin-left: 140px;
+}
+
+
+/* START services__section */
+.services__section{
+
+}
+.services__section--cards--container{
+    margin: 20px 60px;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+}
+.services__section--cards{
+width: 300px;
+height: 200px;
+border-radius: 20px;
+border: 1px solid #EEEEEE;
+}
+.services__section--cards--image{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+.services__section--cards--image img{
+width: 70px;
+}
+/* .services__section--cards--contents {
+} */
+.services__section--cards--contents--title{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #3D4750;
+}
+
+.services__section--cards--contents p{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 10px 25px;
+    width: 230px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+text-align: center;
+color: #686E7D;
 }
