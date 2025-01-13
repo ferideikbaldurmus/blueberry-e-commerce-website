@@ -513,11 +513,11 @@ margin-top: 10px;
     margin-top: 20px;
 }
 
-.categories--horizontal--scroller--text {
+/* .categories--horizontal--scroller--text {
     /* display: flex;
     align-items: center;
-    justify-content: center; */
-}
+    justify-content: center; 
+} */
 
 .categories--horizontal--scroller--text h2 {
     font-family: "Poppins", sans-serif;
@@ -824,9 +824,9 @@ justify-content: space-evenly; */
 
 /* START fresh__organic__banner__section */
 
-.fresh__organic__banner__section {}
+/* .fresh__organic__banner__section {} */
 
-.fresh__organic__banner--container {}
+/* .fresh__organic__banner--container {} */
 
 .fresh__organic__banner--container--image {
     width: 100%;
@@ -1050,7 +1050,8 @@ justify-content: space-evenly; */
 
 
 /* START services__section */
-.services__section {}
+
+/* .services__section {} */
 
 .services__section--cards--container {
     margin: 20px 60px;
@@ -1317,18 +1318,18 @@ justify-content: space-evenly; */
     gap: 20px;
 }
 
-.testimonial--content--image {
+/* .testimonial--content--image {
     /* display: flex;
 align-items: center;
-justify-content: center; */
-}
+justify-content: center; 
+} */
 
 .testimonial--content--image img {
     width: 300px;
     border-radius: 25px;
 }
 
-.testimonial--content--title--and--info--card {}
+/* .testimonial--content--title--and--info--card {} */
 
 .testimonial--content--title {
     padding: 20px;
