@@ -509,7 +509,7 @@ body {
     border-radius: 20px;
     animation: scrollCards 5s linear infinite;
 }
-
+/* 
 @keyframes scrollCards {
     0% {
         transform: translateX(100%);
@@ -518,7 +518,7 @@ body {
     100% {
         transform: translateX(-100%);
     }
-}
+} */
 
 /* .categories--horizontal--scroller h2 {
 
